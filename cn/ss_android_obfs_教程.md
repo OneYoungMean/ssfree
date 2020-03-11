@@ -7,10 +7,9 @@
 
 ## 下载新版客户端及obfs插件
 
-- 新版带obfs功能[Android shadowsocks下载](https://github.com/itrump/ssfree/raw/master/files/obfs_client/shadowsocks-nightly-4.3.0.apk)
-- shadowsocks安卓[obfs插件下载](https://github.com/itrump/ssfree/raw/master/files/obfs_client/obfs-local-nightly-0.0.5.apk)
+安装群里提供的SS 4.8.0 与隔壁提供的OBFS即可
 
-**注意：以上版本兼容，若下载其他版本可能出现不兼容！**
+**注意：以上版本兼容，其他版本未测试!**
 
 下载好后，安装时若弹出提示，需要选择信任此应用。
 
@@ -24,7 +23,7 @@
 - 在扫码后跳转的页面最下方有个「插件」选项，点击后选择「Simple obfuscation」
   - <img src="./img/obfs/ss_android_obfs02.jpg"  width="250" alt="安卓配置混淆插件" />
   - <img src="./img/obfs/ss_android_obfs03.jpg"  width="250" alt="安卓混淆插件选择simple obfs" />
-- 在插件下查看「配置」，确认选项默认的值为「http」和「cloudfront.net」即可，其中「cloudfront.net」可替换为其他国外可访问的http网址如「www.bing.com」
+- 在插件下查看「配置」，确认选项默认的值为「tls」和「cloudfront.net」即可，其中「cloudfront.net」可替换为其他国外可访问的http网址如「www.bing.com」
   - <img src="./img/obfs/ss_android_obfs05.jpg"  width="250" alt="安卓配置obfs参数" />
   - 保存后回到账号配置界面
   - <img src="./img/obfs/ss_android_obfs04.jpg"  width="250" alt="回主界面" />
@@ -34,9 +33,5 @@
   - <img src="./img/google_logo_272x92dp.png"  width="250" alt="安卓obfs配置成功访问谷歌" />
 
 ## 可能的问题FAQ
-- 安卓安装提示错误
-  - 请升级安系统卓版本
 - 提示插件加载出错
   - 可能是「接触不良」,请退出客户端后，重新打开按上述过程配置试试
-
-## [联系我们](./联系我们.md)
